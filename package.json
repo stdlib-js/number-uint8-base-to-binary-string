@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/number-uint8-base-to-binary-string",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Return a string giving the literal bit representation of an unsigned 8-bit integer.",
   "license": "Apache-2.0",
   "author": {
