@@ -1,0 +1,43 @@
+{
+  "name": "@stdlib/number-uint8-base-to-binary-string",
+  "version": "0.0.0",
+  "description": "Return a string giving the literal bit representation of an unsigned 8-bit integer.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/number-uint8-base-to-binary-string.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "base",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "types",
+    "type",
+    "number",
+    "binary",
+    "bin",
+    "bits",
+    "uint8",
+    "nonnegative",
+    "unsigned",
+    "integer",
+    "int",
+    "8-bit",
+    "tostring",
+    "string"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
