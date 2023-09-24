@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-toBinaryString = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@umd/browser.js' )
+toBinaryString = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var toBinaryString = require( 'path/to/vendor/umd/number-uint8-base-to-binary-st
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -128,7 +128,7 @@ str = toBinaryString( a[2] );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint8-max@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
