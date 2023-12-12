@@ -145,6 +145,12 @@ for ( i = 0; i < x.length; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/number-float64/base/to-binary-string`][@stdlib/number/float64/base/to-binary-string]</span><span class="delimiter">: </span><span class="description">return a string giving the literal bit representation of a double-precision floating-point number.</span>
+
 </section>
 
 <!-- /.related -->
@@ -225,6 +231,12 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [ecma-262]: http://www.ecma-international.org/ecma-262/5.1/#sec-4.3.19
 
 [ieee754]: https://en.wikipedia.org/wiki/IEEE_754-1985
+
+<!-- <related-links> -->
+
+[@stdlib/number/float64/base/to-binary-string]: https://github.com/stdlib-js/number-float64-base-to-binary-string
+
+<!-- </related-links> -->
 
 </section>
 
