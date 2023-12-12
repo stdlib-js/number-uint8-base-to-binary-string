@@ -35,30 +35,14 @@ limitations under the License.
 
 > Return a string giving the literal bit representation of an [unsigned 8-bit integer][integer].
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/number-uint8-base-to-binary-string
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var toBinaryString = require( '@stdlib/number-uint8-base-to-binary-string' );
+import toBinaryString from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@esm/index.mjs';
 ```
 
 #### toBinaryString( x )
@@ -66,7 +50,7 @@ var toBinaryString = require( '@stdlib/number-uint8-base-to-binary-string' );
 Returns a `string` giving the literal bit representation of an [unsigned 8-bit integer][integer].
 
 ```javascript
-var Uint8Array = require( '@stdlib/array-uint8' );
+import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
 
 var a = new Uint8Array( [ 1, 4, 9 ] );
 
@@ -114,10 +98,15 @@ str = toBinaryString( a[2] );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var Uint8Array = require( '@stdlib/array-uint8' );
-var MAX_UINT8 = require( '@stdlib/constants-uint8-max' );
-var toBinaryString = require( '@stdlib/number-uint8-base-to-binary-string' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
+import MAX_UINT8 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint8-max@esm/index.mjs';
+import toBinaryString from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@esm/index.mjs';
 
 var x;
 var y;
@@ -135,6 +124,10 @@ for ( i = 0; i < x.length; i++ ) {
     y = parseInt( b, 2 );
     console.log( 'x: %d, b: %s, y: %d', x[i], b, y );
 }
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -164,7 +157,7 @@ for ( i = 0; i < x.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -234,7 +227,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/number/float64/base/to-binary-string]: https://github.com/stdlib-js/number-float64-base-to-binary-string
+[@stdlib/number/float64/base/to-binary-string]: https://github.com/stdlib-js/number-float64-base-to-binary-string/tree/esm
 
 <!-- </related-links> -->
 
