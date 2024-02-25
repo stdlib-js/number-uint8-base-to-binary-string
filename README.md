@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import toBinaryString from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@esm/index.mjs';
+import toBinaryString from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@v0.2.1-esm/index.mjs';
 ```
 
 #### toBinaryString( x )
@@ -106,7 +106,7 @@ str = toBinaryString( a[2] );
 
 import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
 import MAX_UINT8 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint8-max@esm/index.mjs';
-import toBinaryString from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@esm/index.mjs';
+import toBinaryString from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@v0.2.1-esm/index.mjs';
 
 var x;
 var y;
